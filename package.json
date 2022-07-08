@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "- Clone project \r - Run `npm install`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiskien/prn231-spiderum-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiskien/prn231-spiderum-clone/issues"
+  },
+  "homepage": "https://github.com/chiskien/prn231-spiderum-clone#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
