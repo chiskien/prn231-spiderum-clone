@@ -1,5 +1,6 @@
 @forward "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 @forward "custom-variables";
+@forward "global";
 @forward "components";
-@forward "layout";
+@forward "specific";
