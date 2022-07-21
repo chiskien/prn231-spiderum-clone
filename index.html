@@ -5,29 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/dist/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home Page</title>
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     <header>
-        <nav class="navbar box-shadow mb-5">
-            <a href="" class="nav-brand nav-link">Spiderum</a>
-            <a href="" class="nav-link">Home</a>
-            <a href="" class="nav-link">Home</a>
-            <a href="" class="nav-link">Home</a>
-            <a href="" class="nav-link">Home</a>
-            <a href="" class="nav-link">Home</a>
+        <nav class="navbar navbar-expand-lg  navbar-light bg-light shadow fixed-top box-shadow mb-5 ">
+            <div class="container">
+                <div class="navbar-left">
+                    <a href="" class="navbar-brand">Spiderum</a>
+                    <div class="navbar-collapse">
+                        <ul class="navbar-nav navbar-collapse">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Spiderum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Spiderum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Spiderum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Spiderum</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-right ">
+                    <div class="user-section flex-row">
+                        <span>
+                            <a href="" class="nav-link d-inline-block">
+                                <i class="fa-regular fa-bell"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="" class="nav-link d-inline-block">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </span>
+                        <button class="btn btn-dark rounded-3">Post Content</button>
+                        <div class="dropdown d-inline-block">
+                            <a class="btn rounded-circle dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="" alt="">
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    <div class="container-fluid">
+    <div class="container">
         <section class="popular-banner">
-            <h4 class="mb-5">Popular this Month</h4>
-            <div class="row">
+            <h4>Popular this Month</h4>
+            <div class="row mb-5">
                 <div class="col-md-3">
                     <div class="card popular-card">
                         <div class="wrapper"
                              style="background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg)
+                               center / cover no-repeat;">
+                            <div class="header">
+                                <div class="date">
+                                    <span class="day">12</span>
+                                    <span class="month">Aug</span>
+                                    <span class="year">2016</span>
+                                </div>
+                                <ul class="menu-content">
+                                    <li>
+                                        <a href="#" class="fa fa-bookmark-o"></a>
+                                    </li>
+                                    <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+                                    <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="data">
+                                <div class="content">
+                                    <span class="author">Jane Doe</span>
+                                    <h3 class="title">
+                                        <a href="#">Stranger Things: The sound of the Upside Down</a>
+                                    </h3>
+                                    <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital
+                                        release of the Survive soundtrack, out today.</p>
+                                    <a href="#" class="button">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card popular-card">
+                        <div class="wrapper"
+                             style="background: url(https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80)
                                center / cover no-repeat;">
                             <div class="header">
                                 <div class="date">
@@ -78,45 +153,13 @@
                             </div>
                             <div class="data">
                                 <div class="content">
-                                    <span class="author">Jane Doe</span>
+                                    <span class="author">ChisKien</span>
                                     <h3 class="title">
                                         <a href="#">Stranger Things: The sound of the Upside Down</a>
                                     </h3>
-                                    <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital
-                                        release of the Survive soundtrack, out today.</p>
-                                    <a href="#" class="button">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card popular-card">
-                        <div class="wrapper"
-                             style="background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg)
-                               center / cover no-repeat;">
-                            <div class="header">
-                                <div class="date">
-                                    <span class="day">12</span>
-                                    <span class="month">Aug</span>
-                                    <span class="year">2016</span>
-                                </div>
-                                <ul class="menu-content">
-                                    <li>
-                                        <a href="#" class="fa fa-bookmark-o"></a>
-                                    </li>
-                                    <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
-                                    <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
-                                </ul>
-                            </div>
-                            <div class="data">
-                                <div class="content">
-                                    <span class="author">Jane Doe</span>
-                                    <h3 class="title">
-                                        <a href="#">Stranger Things: The sound of the Upside Down</a>
-                                    </h3>
-                                    <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital
-                                        release of the Survive soundtrack, out today.</p>
+                                    <p class="text">
+                                        The antsy bingers of Netflix will eagerly anticipate the digital release of the
+                                        Survive soundtrack, out today.</p>
                                     <a href="#" class="button">Read more</a>
                                 </div>
                             </div>
@@ -144,9 +187,9 @@
                             </div>
                             <div class="data">
                                 <div class="content">
-                                    <span class="author">Jane Doe</span>
+                                    <span class="author">ChisKien</span>
                                     <h3 class="title">
-                                        <a href="#">Stranger Things: The sound of the Upside Down</a>
+                                        <a href="#">Stranger Things</a>
                                     </h3>
                                     <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital
                                         release of the Survive soundtrack, out today.</p>
@@ -158,10 +201,27 @@
                 </div>
             </div>
         </section>
+        <section class="blog-post mb-5">
+            <div class="post-card">
+                <div class="post-card-img">
+                    <img class="post-image"
+                         src="https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80"
+                         alt="">
+                </div>
+                <div class="post-card-content">
+                    <div class="post-card-content-wrapper">
+                        <h2>Content</h2>
+                    </div>
+                </div>
+                <div class="post-content"></div>
+            </div>
+        </section>
+
     </div>
 </div>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="src/js/home.js"></script>
+<script src="https://kit.fontawesome.com/ccd1962523.js" crossorigin="anonymous"></script>
 </body>
 </html>
