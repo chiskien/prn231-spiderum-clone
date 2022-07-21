@@ -1,6 +1,12 @@
 .popular-banner {
   width: 100%;
+  margin-top: 3vh;
   padding: 1em;
+
+  &-title {
+    a {
+    }
+  }
 }
 .blog-post {
   padding: 1em;
