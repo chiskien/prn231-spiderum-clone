@@ -1,4 +1,4 @@
-
+@use "../custom-variables.scss" as *;
 *, *:before, *:after {
 
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Cabin, sans-serif;
+  font-family: $primary-link-color;
   width: 100vw;
 }
 
