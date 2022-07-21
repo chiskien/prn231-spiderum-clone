@@ -35,3 +35,20 @@
     height: 100%;
   }
 }
+
+.blog-post-tag {
+
+  .tags-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+  }
+
+  .custom-tags {
+    padding: .5rem 1rem;
+    border: 1px grey solid;
+    margin-right: 1px;
+    border-radius: 47px;
+  }
+}

@@ -48,9 +48,11 @@
                             </a>
                         </span>
                         <a class="btn btn-dark text-white" href="login.html">Login</a>
+                        <a class="btn btn-dark text-white" href="register.html">Register</a>
                         <a class="btn btn-dark text-white" href="post-content.html">Post Content</a>
                         <div class="dropdown d-inline-block">
-                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            <button class="btn  dropdown-toggle btn-outline-dark" type="button"
+                                    data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                 ChisKien
                             </button>
@@ -364,9 +366,23 @@
             </section>
             <aside class="blog-post-tag mx-auto p-3">
                 <h4>Topics</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore eaque earum enim error id
-                    incidunt iste labore libero maxime odio quae quasi quo, repellat saepe sequi totam veritatis
-                    voluptatibus.</p>
+                <div class="tags-list mb-3  ">
+                    <a href="tag-detail.html" class=" link-dark custom-tags">
+                        <span class="">Quan điểm- Tranh Luận</span>
+                    </a>
+                    <a href="tag-detail.html" class=" link-dark custom-tags">
+                        <span class="">Chính Trị</span>
+                    </a>
+                    <a href="tag-detail.html" class=" link-dark custom-tags">
+                        <span class="">Cuộc sống</span>
+                    </a>
+                    <a href="tag-detail.html" class=" link-dark custom-tags">
+                        <span class="">Giải trí</span>
+                    </a>
+                    <a href="tag-detail.html" class=" link-dark custom-tags">
+                        <span class="">Khoa Học</span>
+                    </a>
+                </div>
             </aside>
 
         </main>
@@ -376,6 +392,7 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/ccd1962523.js" crossorigin="anonymous"></script>
+<script type="module" src="src/js/components/navbar.js"></script>
 <script src="src/js/home.js"></script>
 </body>
 </html>
