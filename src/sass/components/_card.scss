@@ -128,18 +128,28 @@
 
 .post-card {
   display: flex;
+  gap: 1rem;
   flex-direction: row;
   height: 250px;
-  width: 750px;
-  border: 1px black;
+  width: 100%;
+  margin-right: .5em;
 
-  &-img {
-    height: 100%;
+  &-image-wrapper {
     width: 40%;
-
-    .post-image {
-      width: 100%;
-      height: 100%;
-    }
+    height: 100%;
   }
+
+  &-image {
+    height: 100%;
+    width: 100%;
+  }
+
+  &-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
 }

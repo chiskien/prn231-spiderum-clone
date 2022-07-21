@@ -1,4 +1,5 @@
 @use "../custom-variables" as *;
+
 .popular-banner {
   width: 100%;
   margin-top: 3vh;
@@ -11,7 +12,26 @@
   }
 
 }
+
 .blog-post {
   padding: 1em;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  &-content {
+    width: 70%;
+    height: 100%;
+
+    &-card {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+  }
+
+  &-tag {
+    width: 30%;
+    height: 100%;
+  }
 }
