@@ -211,26 +211,81 @@
             </div>
         </section>
         <section class="blog-post mb-5">
-            <div class="post-card">
-                <div class="post-card-img">
-                    <img class="post-image"
-                         src="https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80"
-                         alt="">
-                </div>
-                <div class="post-card-content">
-                    <div class="post-card-content-wrapper">
-                        <h2>Content</h2>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Today's Posts
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Authors
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Newest Posts
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="post-card">
+                        <div class="post-card-img">
+                            <img class="post-image"
+                                 src="https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80"
+                                 alt="">
+                        </div>
+                        <div class="post-card-content">
+                            <div class="post-card-content-wrapper">
+                                <h2>Content</h2>
+                            </div>
+                        </div>
+                        <div class="post-content"></div>
                     </div>
                 </div>
-                <div class="post-content"></div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="post-card">
+                        <div class="post-card-img">
+                            <img class="post-image"
+                                 src="https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80"
+                                 alt="">
+                        </div>
+                        <div class="post-card-content">
+                            <div class="post-card-content-wrapper">
+                                <h2>Content</h2>
+                            </div>
+                        </div>
+                        <div class="post-content"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="post-card">
+                        <div class="post-card-img">
+                            <img class="post-image"
+                                 src="https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80"
+                                 alt="">
+                        </div>
+                        <div class="post-card-content">
+                            <div class="post-card-content-wrapper">
+                                <h2>Content</h2>
+                            </div>
+                        </div>
+                        <div class="post-content"></div>
+                    </div>
+                </div>
             </div>
+
         </section>
 
     </div>
 </div>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="src/js/home.js"></script>
 <script src="https://kit.fontawesome.com/ccd1962523.js" crossorigin="anonymous"></script>
+<script src="src/js/home.js"></script>
 </body>
 </html>
