@@ -1,4 +1,7 @@
 //clear fix mixin
+
+@use "../custom-variables" as *;
+
 @mixin cf {
   &::before,
   &::after {
@@ -149,6 +152,30 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    .bookmark {
+      right: 40px !important;
+    }
+
+    .date-posted {
+      color: grey;
+      font-size: .85em;
+    }
+
+    &-action {
+      position: absolute;
+      right: 40px;
+    }
+
+    &-tag {
+      a {
+        color: $primary-link-color;
+      }
+    }
+  }
+
+  &-content-tag {
+    position: relative;
   }
 
 
