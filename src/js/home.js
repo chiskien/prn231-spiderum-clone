@@ -1,3 +1,1 @@
 
-
-const concac = 1;
